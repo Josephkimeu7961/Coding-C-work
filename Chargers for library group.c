@@ -1,18 +1,24 @@
+//Program to calculate the fine for overdue library books
+/*Author:Joseph
+Reg No:CT102/G/22241/24
+Date:02/09/2024
+*/
 #include <stdio.h>
 
 int main() {
-  int Book_ID,Due_Date,Return_Date,Days_Overdue,Fine_Rate,Fine_Amount;
+  int Book_ID,Due_Date,Return_Date,Days_Overdue,Fine_Rate,Fine_Amount;//%d
+
   printf("Enter Book_ID:");
   scanf("%d",&Book_ID);
+
   printf("Enter Due_Date:");
   scanf("%d",&Due_Date);
+
   printf("Enter Return_Date:");
   scanf("%d",&Return_Date);
   
   Days_Overdue=Return_Date-Due_Date;
   printf("Days_Overdue is %d \n",Days_Overdue);
-  
-  
   
   if(Days_Overdue<=7){
   Fine_Rate=20;
