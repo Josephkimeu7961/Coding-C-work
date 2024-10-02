@@ -1,8 +1,13 @@
+//program to calculate compound interest
+/*Author:Joseph
+Reg No:CT102/G/22241/24
+Date:2/10/2024
+*/
 #include<stdio.h>
 
 int main()
 {
-  float P,t,r,n,CI,A;
+  float P,t,r,n,CI,A;//%f 
   
   printf("Enter P:");
   scanf("%f",&P);
@@ -21,7 +26,8 @@ int main()
   printf("Enter n:");
   scanf("%f",&n);
   printf("n is %f \n",n);
-  
+
+//The formula below is for calculating  amount 
   A=P*pow((1+r/n),(n*t));
   printf("A is %f \n",A);
   
