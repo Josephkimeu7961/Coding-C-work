@@ -1,7 +1,7 @@
 //Program to calculate the fine for overdue library books
 /*Author:Joseph
 Reg No:CT102/G/22241/24
-Date:02/09/2024
+Date:02/10/2024
 */
 #include <stdio.h>
 
