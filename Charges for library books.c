@@ -6,38 +6,38 @@ Date:02/10/2024
 #include <stdio.h>
 
 int main() {
-  int Book_ID,Due_Date,Return_Date,Days_Overdue,Fine_Rate,Fine_Amount;//%d
+  int bookID,dueDate,returnDate,daysOverdue,fineRate,fineAmount;//%d
 
-  printf("Enter Book_ID:");
-  scanf("%d",&Book_ID);
+  printf("Enter bookID:");
+  scanf("%d",&bookID);
 
-  printf("Enter Due_Date:");
-  scanf("%d",&Due_Date);
+  printf("Enter dueDate:");
+  scanf("%d",&dueDate);
 
-  printf("Enter Return_Date:");
-  scanf("%d",&Return_Date);
+  printf("Enter returnDate:");
+  scanf("%d",&returnDate);
   
-  Days_Overdue=Return_Date-Due_Date;
-  printf("Days_Overdue is %d \n",Days_Overdue);
+  daysOverdue=returnDate-dueDate;
+  printf("daysOverdue is %d \n",daysOverdue);
   
-  if(Days_Overdue<=7){
+  if(daysOverdue<=7){
   Fine_Rate=20;
-  printf("Fine_Rate is %d\n",Fine_Rate);
-  Fine_Amount=Fine_Rate*Days_Overdue;
-  printf("Fine_Amount is %d",Fine_Amount);
+  printf("fineRate is %d\n",fineRate);
+  fineAmount=fineRate*daysOverdue;
+  printf("fineAmount is %d",fineAmount);
   }
   
-  else if(Days_Overdue<=14){
-  Fine_Rate=50;
-  printf("Fine_Rate is %d \n",Fine_Rate);
-  Fine_Amount=Fine_Rate*Days_Overdue;
-    printf("Fine_Amount is %d",Fine_Amount);
+  else if(daysOverdue<=14){
+  fineRate=50;
+  printf("fineRate is %d \n",fineRate);
+  fineAmount=fineRate*daysOverdue;
+    printf("fineAmount is %d",fineAmount);
   }
   else{
-  Fine_Rate=100;
-  printf("Fine_Rate is %d\n",Fine_Rate);
-  Fine_Amount=Fine_Rate*Days_Overdue;
-    printf("Fine_Amount is %d",Fine_Amount);
+  fineRate=100;
+  printf("fineRate is %d\n",fineRate);
+  fineAmount=fineRate*daysOverdue;
+    printf("fineAmount is %d",fineAmount);
   }
   return 0;
 }
