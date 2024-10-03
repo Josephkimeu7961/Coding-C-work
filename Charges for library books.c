@@ -21,7 +21,7 @@ int main() {
   printf("daysOverdue is %d \n",daysOverdue);
   
   if(daysOverdue<=7){
-  Fine_Rate=20;
+  fineRate=20;
   printf("fineRate is %d\n",fineRate);
   fineAmount=fineRate*daysOverdue;
   printf("fineAmount is %d",fineAmount);
