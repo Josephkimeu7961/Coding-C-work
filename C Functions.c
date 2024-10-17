@@ -1,4 +1,7 @@
 //C funtions
+/*Author:Joseph
+Reg No:CT102/G/22241/24
+*/
 #include <stdio.h>
 #include <math.h>
 int sum(int x,int y,int z);
