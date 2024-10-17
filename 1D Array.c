@@ -1,4 +1,7 @@
 //1D Arrays
+/*Author:Joseph
+Reg No:CT102/G/22241/24
+*/
 #include <stdio.h>
 int main(){
 	int i;
