@@ -24,7 +24,7 @@ int main(){
 	printf("author:%s\n",book.author);
 	printf("publication year:%d\n",book.publicationYear);
     printf("ISBN:%s\n",book.ISBN);
- 	printf("price:%f\n",book.price);
+ 	printf("price:%.2f\n",book.price);
  	
  	return 0;
 }
